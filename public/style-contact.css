@@ -1,0 +1,68 @@
+/*STYLES CONTACT*/
+body {
+	background-image: url(https://images.pexels.com/photos/4974922/pexels-photo-4974922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+}
+
+h2, h3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 40px;
+	color: #fff;
+}
+
+h3{
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 25px;
+	color: #fff;
+}
+
+.box-container{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(232, 73, 89, 0.7);
+	border-radius:10px;
+	padding:70px 100px;
+}
+
+
+.body-form{
+	width: 400px;
+	height: 300px;
+
+}
+
+.input-container{
+	width: 350px;
+	height: 10px;
+	border: none;
+	display: flex;
+	position:relative;
+	margin-bottom:30px;
+	padding: 15px;
+	border-radius: 30px;
+	font-family: Montserrat;
+  	font-size: 16px;
+	
+}
+
+
+.btn-submit {
+	padding-top: 8px;
+	width: 100%;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+  	margin-top: -8px;
+  	cursor:pointer;
+  	background:#0E4F8F;
+  	font-family: Montserrat;
+  	font-size: 16px;
+  	color:#fff;
+}

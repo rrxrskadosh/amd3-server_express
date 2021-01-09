@@ -1,0 +1,15 @@
+/*STYLES INDEX*/
+h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 50px;
+	color: #DE424C;
+}
+
+body {
+	background-image: url(https://images.pexels.com/photos/4974922/pexels-photo-4974922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+}
